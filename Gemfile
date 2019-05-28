@@ -9,6 +9,19 @@ gem 'rails', '~> 5.2.3'
 gem 'sqlite3','~> 1.3.6'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+
+gem 'bootstrap-sass'
+gem 'font-awesome-rails'
+gem 'jquery-rails'
+gem 'devise'
+#CarrierWave File upload
+gem 'carrierwave', '~>1.0'  # Mac only or gem 'carrierwave' for PC or Mac
+gem 'cancancan'
+gem 'pry-rails' #for rails c
+gem 'better_errors', group: :development
+gem 'binding_of_caller' #works with better errors to see 
+                        #instance variable values    
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
