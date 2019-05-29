@@ -16,6 +16,10 @@ gem 'jquery-rails'
 gem 'devise'
 #CarrierWave File upload
 gem 'carrierwave', '~>1.0'  # Mac only or gem 'carrierwave' for PC or Mac
+# for both Mac and PC Users
+gem 'stripe'
+gem 'figaro'
+
 gem 'cancancan'
 gem 'pry-rails' #for rails c
 gem 'better_errors', group: :development
