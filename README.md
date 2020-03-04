@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+* Setup Insructions
+bundle install
+rails g devise:install
+rails db:migrate
+rails g devise:views
