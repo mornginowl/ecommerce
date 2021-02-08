@@ -15,7 +15,7 @@ gem 'font-awesome-rails'
 gem 'jquery-rails'
 gem 'devise'
 #CarrierWave File upload
-gem 'carrierwave', '~>1.0'  # Mac only or gem 'carrierwave' for PC or Mac
+gem 'carrierwave', '~>1.3' # Mac only or gem 'carrierwave' for PC or Mac
 # for both Mac and PC Users
 gem 'stripe'
 gem 'figaro'
